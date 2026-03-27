@@ -1,5 +1,6 @@
-html {
-    color: #97BBFF
+body {
+    color: #97BBFF;
+    margin: 0;
 }
 nav {
     background-color: #333;
