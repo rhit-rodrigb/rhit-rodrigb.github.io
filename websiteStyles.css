@@ -1,7 +1,14 @@
 html, body {
+    height: 100%;
     background-color: #97BBFF;
     margin: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 nav {
     background-color: #333;
     padding: 10px;
@@ -46,4 +53,32 @@ h1, h2 {
 .contact {
     display: flex;
     gap: 20px;
+}
+
+.platformLinks {
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    gap: 30px;               
+}
+
+.platformLinks h3 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.platformLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.platformLinks a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: auto;
 }
