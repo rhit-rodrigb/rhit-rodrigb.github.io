@@ -82,3 +82,7 @@ h1, h2 {
 footer {
     margin-top: auto;
 }
+
+p {
+    text-align: center;
+}
