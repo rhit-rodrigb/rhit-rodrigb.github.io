@@ -20,6 +20,6 @@ nav a:hover {
 }
 
 img {
-    padding: 5px;
-    margin: 5px;
+    margin-left: -5px;
+    margin-top: -5px;
 }
