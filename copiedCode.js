@@ -1,4 +1,8 @@
 //Where I learned about async functions: https://javascript.info/async-await
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event
+document.addEventListener("DOMContentLoaded", () => {
+  loadBanner()});
+
 async function loadBanner(navFile = "navigation.html", footerFile = "footer.html") {
     let navPlaceholder = document.getElementById('nav-placeholder');
     let footerPlaceholder = document.getElementById('footer-placeholder');

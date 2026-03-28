@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #333333;
     padding: 20px 0;    
     text-align: center;
 }
@@ -91,7 +91,7 @@ footer {
 
 .platformLinks {
     color: white;
-    background-color: #333;
+    background-color: #333333;
     padding: 20px 0;
     display: flex;
     justify-content: center; 
@@ -132,6 +132,44 @@ ul {
     max-width: 90%;
     height: auto;
     margin-top: 15px;
-    border: 2px solid #333;
+    border: 2px solid #333333;
     border-radius: 5px;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collapsible:hover {
+    background-color: #444444;
+}
+
+.collapsible.active {
+    background-color: #444444;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.collapsible.active .arrow {
+    transform: rotate(180deg);
+}
+
+.project-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding-left: 15px;
 }
