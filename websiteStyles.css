@@ -7,9 +7,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 nav {
+    position: sticky;
+    top: 0%;
     background-color: #333;
     padding: 20px 0;    
     text-align: center;
